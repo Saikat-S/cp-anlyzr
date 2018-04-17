@@ -1,6 +1,7 @@
 # Competitive Programmer's Analyzer
+
 ## cp-anlyzr
-Our plan is to make a Competitive Programmer's Analyzer which will take Handle _Name/username/email of an contestant and show some graphs and statistics for that Handle. We will show many graphs to present current condition of a user, his activity, progress in problem solving.
+Our plan is to make a competitive programmer's analyzer which will take handle_name or username or email of a competitive programmer and show some graphs and statistics for that Handle. We will show many graphs to represent current condition of a user, his activity, progress in problem solving.
 
 ### Our Planed Features
 - Verdicts chart
@@ -20,8 +21,7 @@ Our plan is to make a Competitive Programmer's Analyzer which will take Handle _
 - A make activity chart show which will show how active the user is in previous months.
 
 ### Implementation Idea
-We planed to build a Web App or a Desktop App using Java. Codeforces provide public APIs, through which machine-readable JSON formated data is available. We will use codeforces APIs to get data of a user by sending HTTP-request to codeforces server. There are many library to consume APIs in Java.
-Some of them are:
+We planed to build a Web App or a Desktop App using Java. Codeforces and most other platforms provide public APIs, through which machine-readable JSON formated data is available, generally. We will use these APIs to get data of a user by sending HTTP-request to the server. There are many library to consume APIs in Java. Some of them are:
 - [httpcomponents-client-ga](http://hc.apache.org/httpcomponents-client-ga/)
 - [square/okhttp](https://github.com/square/okhttp)
 - [square/retrofit](http://square.github.io/retrofit/)
@@ -36,5 +36,5 @@ Making a Web App will be difficult then building Desktop App. Java Swing or Java
 - Suggested problems will be helpful to and guide a competitive programmer.
 
 ### License
-The tool is given under MIT license.
+The tool is given under MIT license, [read more](https://opensource.org/licenses/MIT).
 
